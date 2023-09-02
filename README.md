@@ -29,9 +29,7 @@ To use this Student Management System:
 5. Host the project on your web server.
 6. Access the system through a web browser.
 
-## Project Structure
 
-- **[Add project structure details here]**: Describe the structure of your project, including directories and key files.
 
 ## License
 
