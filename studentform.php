@@ -13,20 +13,20 @@
             font-family: Lucida Console;
         }
 
-        /* Add your CSS styling here */
+        
 
     </style>
 </head>
 
 <body>
     <div class="container-fluid">
-        <!-- Your navigation menu goes here -->
+        <!--  navigation menu goes here -->
     </div>
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-4">
                 <form method="post" action="">
-                    <!-- Your form fields go here -->
+                    <!--  form  -->
                 </form>
             </div>
             <div class="col-lg-8">
