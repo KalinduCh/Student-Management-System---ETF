@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>STUDENT REGISTRATION & DETAILS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+    <style>
+        body {
+            height: 100vh;
+            background-image: url('images/Back.png'); /* Add your background image URL */
+            background-size: cover;
+            background-position: center;
+            font-family: Trebuchet MS;
+            color: darkblue; /* Change text color to dark blue */
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 200px;
+            padding-bottom: 50px;
+            font-size: 50px;
+            color: black; /* Change h1 text color to black */
+        }
+
+        .p1, .p2 {
+            padding: 20px;
+            border: 2px solid white;
+            border-radius: 10px;
+            text-align: center;
+            margin: 0 auto;
+            width: 200px;
+            cursor: pointer;
+            color: white; /* Change text color of .p1 and .p2 to white */
+        }
+
+        .p1:hover, .p2:hover {
+            border-color: rgb(24, 3, 154);
+            background-color: rgb(10, 188, 198);
+            box-shadow: 0px 0px 24px white;
+        }
+
+        #about {
+            text-align: center;
+        }
+
+        .about {
+            font-size: 24px;
+            color: blue; /* Change text color of .about to blue */
+        }
+
+        .read_more {
+            font-size: 24px;
+            color: darkblue; /* Change text color of .read_more to dark blue */
+        }
+
+        .about:hover {
+            text-decoration: underline;
+        }
+
+        a {
+            color: darkblue; /* Change link text color to dark blue */
+        }
+
+        a:hover {
+            color: blue; /* Change link text color on hover to blue */
+            text-decoration: none;
+        }
+
+        footer {
+            text-align: center;
+            position: absolute;
+            bottom: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 18px;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <a class="read_more" href="E:\SLIIT LEC\University Projects\ETF\Student Management System - ETF\index.html">HOME</a>
+    <p class="about" onclick="about()">INFO</p>
+    <h1>Student Management System</h1>
+    <p id="about"></p>
+    <a href="http://localhost/management/studentform.php">
+        <p class="p1">Enter The Student Data</p>
+    </a>
+
+    <!-- Add a back arrow to navigate back -->
+    <a href="javascript:history.back();">
+        <p class="p2">Back</p>
+    </a>
+
+    <footer>
+        <!-- Add your footer content here -->
+        &copy; 2023 @ SLLIT ACADEMY
+    </footer>
+
+    <script>
+        function about() {
+            document.getElementById('about').innerHTML = "This is a College Management System which can be used to enter the data of students as well as teachers.<br/>This Management System helps in the collection of student data as well as teacher's data";
+        }
+    </script>
+</body>
+
+</html>
