@@ -5,6 +5,7 @@
 
 This project is associated with SLIIT Academy and is designed to create a web-based Student Management System. The goal of this system is to automate all the manual aspects of the conventional way of managing student records. It provides a user-friendly web interface that allows users to handle students in a convenient, efficient, and simplified manner. Additionally, the system features a REST API to manage the resources in the backend.
 
+![Website Screenshot](images/Preview/Prv%20%20(1).png)
 ## Languages & Tools Used
 
 The project is built using the following languages and tools:
